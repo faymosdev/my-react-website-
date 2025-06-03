@@ -1,10 +1,13 @@
+import Navbar from "../components/navbar";
+
 export default function Landing() {
   return (
     <>
-      <navbar />
+      <Navbar />
       <div className="text-center mx-auto p-30">
         <h1 className="text-4xl font-semibold">
-          Think, plan, and <span className="border-2 border-orange-500 rounded-full">DO!</span>
+          Think, plan, and{" "}
+          <span className="border-2 border-orange-500 rounded-full">DO!</span>
         </h1>
         <p className="text-3xl font-semibold text-gray-500 mt-2">
           all in one place

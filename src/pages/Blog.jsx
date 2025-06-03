@@ -1,7 +1,9 @@
+import Navbar from "../components/navbar";
+
 export default function () {
   return (
     <>
-      <navbar />
+      <Navbar />
       <div className="p-10">
         <h1 className="text-4xl font-semibold mb-2 text-orange-500">
           Blogs & Articles
@@ -122,13 +124,13 @@ export default function () {
         </div>
       </div>
 
-      <div className="bg-black text-center mb-5 p-5">
-        <div className="bg-white shadow rounded-lg p-4">
+      <div className="bg-orange-300 text-center mb-5 p-5">
+        <div className="bg-white shadow rounded-lg p-7">
           <p className="text-sm mb-4 mt-10 font-medium text-orange-500">OUR NEWSLETTER</p>
           <h1 className="text-2xl mb-3 font-medium">
             Join 320k+ Users Who Have Increased Their Productivity
           </h1>
-          <button className="rounded-full bg-gray-100 shadow w-1/3 p-2 mt-2 border-orange-500 border-2">Enter your email</button>
+          <input className="rounded-lg bg-gray-100 shadow w-1/3 p-2 mt-2 border-orange-500 border-2 text-sm lg:text-xl lg:rounded-full" placeholder="Enter Your Email..."/>
         </div>
       </div>
     </>
